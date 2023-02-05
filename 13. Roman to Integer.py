@@ -16,4 +16,3 @@ class Solution(object):
                 num += roman_dict[s[count_len]]
                 count_len += 1
         return num
-        
