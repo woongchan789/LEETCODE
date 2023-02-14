@@ -11,8 +11,6 @@ class Solution(object):
                 temp += morse_list[ord(w) - 97]
             if temp not in cnt_dict:
                 cnt_dict[temp] = 1
-            else:
-                cnt_dict[temp] += 1
         
         return len(cnt_dict)
         
