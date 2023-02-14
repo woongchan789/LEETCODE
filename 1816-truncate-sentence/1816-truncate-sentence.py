@@ -1,10 +1,10 @@
 class Solution(object):
     def truncateSentence(self, s, k):
-        a = s.split(' ')
+
         final = ''
         for i in range(k):
             if i == k-1:
-                final += a[i]
+                final += s.split(' ')[i]
             else:
-                final += a[i] + str(' ')
+                final += s.split(' ')[i] + str(' ')
         return final
