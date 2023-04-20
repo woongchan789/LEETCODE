@@ -3,8 +3,7 @@ class Solution(object):
         num = str(num)
         str_list = []
         for i in num:
-            str_list.append(i)
-            
+            str_list.append(i) 
         for i in range(len(num)):
             if num[i] == '9':
                 pass
